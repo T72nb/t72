@@ -5,6 +5,8 @@ h1,h2{
 }
 body{
 font-family: Verdana, Geneva,Arial;
+  margin-left: 0px;
+  line-height: 0.5px;
 }
 
 html{
