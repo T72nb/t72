@@ -16,22 +16,22 @@ h2 {
 color: black;
 	font-size: 1.3em;
 }
+
 div h2{
 	color: black;
 
 }
 
+
 p#footer{
-	font-size: 5vw;
+	font-size: 0.8vw;
 }
 p.guarantee{
-	font-size: 5vw;
+	font-size: 0.8vw;
 }
 
 .guarantee {
-  border-color:        white;
-  border-width:        1px;
-  border-style:        dashed;
+	border: 1px dashed white;
   background-color:    #a7cece;
   padding:             25px; 
   margin:              30px;
@@ -48,17 +48,45 @@ p.guarantee{
 
 }
 
-.elixors{
-	border-width: thin;
-	border-style: solid;
-	border-color: #007e7e;
+.elixirs{
+	border: thin solid #007e7e;
 	padding-right: 20px;
 	padding-bottom: 20px;
 	padding-left: 20px;
+	padding: 20px;
 	margin-left: 20px;
 	background-image: url(images/cocktail.gif);
 	background-repeat: repeat-x;
 	text-align: center;
 	line-height: 1;
 	width: 200px;
+}
+
+a {
+	color: red;
+}
+
+a:link {
+	color: green;
+}
+
+a:visited {
+	color: red;
+}
+
+a:hover {
+	color: yellow;
+}
+
+.elixirs a:link {
+  color: #007e7e;
+}
+
+.elixirs a:visited {
+  color: #333333;
+}
+
+.elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
 }
