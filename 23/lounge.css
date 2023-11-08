@@ -60,6 +60,7 @@ p.guarantee{
 	text-align: center;
 	line-height: 1;
 	width: 200px;
+	float: right;
 }
 
 a {
