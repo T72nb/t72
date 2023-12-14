@@ -1,0 +1,23 @@
+ .HolyGrail {
+    text-align: center;
+    display: flex;
+    min-height: 40vh;
+    flex-direction: column;
+  }
+  .HolyGrail .wrap {
+    display: flex;
+    flex: 1;
+  }
+  
+  .HolyGrail .left,.HolyGrail .right .content .foot {
+    background:lightgreen;
+    flex: 500px 500px 500px 500px;
+  }
+  .HolyGrail header,.HolyGrail footer{
+    background:#999;
+    height: 50px;
+    line-height: 50px;
+  }
+  .HolyGrail .left {
+    background:salmon;
+  }
