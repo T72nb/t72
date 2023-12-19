@@ -1,0 +1,186 @@
+#box {
+    width: 100%;
+    height: 20px;
+    background-color:white;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: 1px grey;
+}
+
+.box1 {
+    width: 80px;
+    height: 20px;
+    background-color:white;
+    float: right;
+    border-bottom: 1px grey;
+}
+
+.box2 {
+    width: 100px;
+    height: 20px;
+    background-color: rgb(227, 228, 229);
+    float: left;
+    display: block;
+    margin: 0px 10px;
+    font-size: 10px;
+    position: relative;
+}
+
+.icon {
+    color: black;
+}
+
+
+a {
+    position: relative;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 11px;
+    color: black;
+    text-decoration: none;
+    float: right;
+}
+
+a:hover {
+    color: black;
+}
+
+.ww {
+    font-family: "xiyangyang";
+    color: black;
+
+}
+
+@font-face {
+    /* 字体起的名字 */
+    font-family: "xiyangyang";
+    /* 引入字体的路径 */
+    src: url(./字体/ZCOOLKuaiLe-Regular.ttf);
+}
+
+.ww:hover {
+    color: black;
+}
+
+.box1::before {
+    position: sticky;
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    left: 10px;
+    margin-left: auto;
+    background-color: white;
+    content: "";
+}
+.p{
+width: 80px;
+height: 50px;
+border: 1px solid rgb(227, 228, 229);
+line-height: 50px;
+text-align: center;
+display: none;
+background-color: rgb(227, 228, 229);
+margin-left:-25px ;
+}
+
+div>.box1:hover .p{
+display: block;
+padding-bottom: 20px; /*盒子下边距，这里用来指定下划线距离文字的高度*/
+border-bottom: 2px solid skyblue;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 520;
+    font-family: 微软雅黑;
+}
+
+
+
+
+
+
+
+#nav {
+    width: 1470px;
+    height: 72px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px auto;
+    display:block;
+    list-style-type:circle;height:auto;
+    width:100%;
+}
+
+#nav>ul>li {
+    float: left;
+    width: 200px;
+    height:72px;
+    text-align: center;
+}
+
+#nav>ul>li>a {
+    text-align: center;
+    line-height: 60px;
+    font-size: 14px;
+    color: black;
+	width: 300px;
+    
+}
+
+#nav>ul>li>a:hover {
+    padding-bottom: 40px; /*盒子下边距，这里用来指定下划线距离文字的高度*/
+    border-bottom: 2px solid skyblue;
+}
+
+ul>span {
+    float: left;
+    line-height: 72px;
+    color: rgb(225, 224, 224);
+    font-weight: 800;
+    font-size: 24px;
+}
+
+
+#nav>ul>li>.a2 {
+    color: rgb(101, 198, 58);
+}
+#left,#right{
+
+    float:left;
+    
+    color:#FF33CC;
+    
+    }
+    
+    #right{
+    
+    padding:10px;
+    
+    margin-top:40px;
+    
+    }
+    .ad {
+
+        position: absolute;
+        
+        /*绝对位移*/
+        
+        left: 300px;
+        
+        /*left 属性规定元素的左边缘。该属性定义了定位元素左外边距边界与其包含块左边界之间的偏移。*/
+        
+        top: 150px;
+        
+        /*top 属性规定元素的顶部边缘。该属性定义了一个定位元素的上外边距边界与其包含块上边界之间的偏移。*/
+        
+        }
+        img{
+            width:18px;
+            vertical-align: bottom;
+        }
+  
+   

@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 520;
+    font-family: 微软雅黑;
+}
+
+#nav {
+    width: 2500px;
+    height: 72px;
+    background-color: rgb(247, 249, 250);
+    border-radius: 20px;
+    margin: 20px auto;
+}
+
+#nav>ul>li {
+    float: left;
+    width: 200px;
+    height:72px;
+    text-align: center;
+}
+
+#nav>ul>li>a {
+    text-align: center;
+    line-height: 60px;
+    font-size: 14px;
+    color: black;
+}
+
+#nav>ul>li>a:hover {
+    padding-bottom: 20px; /*盒子下边距，这里用来指定下划线距离文字的高度*/
+    border-bottom: 2px solid skyblue;
+}
+
+ul>span {
+    float: left;
+    line-height: 72px;
+    color: rgb(225, 224, 224);
+    font-weight: 800;
+    font-size: 24px;
+}
+
+
+#nav>ul>li>.a2 {
+    color: rgb(101, 198, 58);
+}
+#left,#right{
+
+    float:left;
+    
+    color:#FF33CC;
+    
+    }
+    
+    #right{
+    
+    padding:10px;
+    
+    margin-top:40px;
+    
+    }
