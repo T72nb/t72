@@ -1,0 +1,52 @@
+.box{
+    background-color: rgb(201, 198, 198);
+}
+strong{
+    text-indent: 2em;
+}
+.container {
+ 
+  clear: left;
+  background-color: lightblue;
+  padding: 2%;
+  font-size: 1.25em;
+  width: 50%;
+}
+
+.video-container {
+ width: 50%;
+ float: right;
+}
+
+.text-container {
+  margin-right: -20px; /* 根据实际情况调整这个值，以保持视频和文字之间的距离 */
+}
+
+  .search-container {
+    position: relative;
+    
+}
+
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+#search-input {
+    padding-left: 35px; /* Adjust this to match the icon size */
+}
+  
+  svg {
+    fill: #666;
+    width: 32px;
+    height: 32px;
+    margin: left;
+  }
+  .box2{
+    text-align: left;
+  }
