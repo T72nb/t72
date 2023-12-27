@@ -1,0 +1,150 @@
+.container {
+    width: 100%;
+    padding-bottom: 100px;
+    
+  }
+  .text {
+    float: left;
+    width: 50%; /* 根据需要调整文字区域的宽度 */
+  }
+  .video {
+    float: right;
+    width: 50%; 
+    margin-right: -180px;
+    
+  }
+  .search-container {
+    position: relative;
+    z-index: 1;
+    
+}
+
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 50px;
+ 
+    
+}
+
+.search-input {
+    padding-left: 35px; /* Adjust this to match the icon size */
+    height: 70px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-indent: 2em;
+    font-size: 20px;
+    
+    transition: border-width 0.08s ease; 
+    
+}
+
+.search-input:focus{
+    outline: none;
+    
+    border: 5px solid #70b3fa; 
+   
+}
+  svg {
+    fill: #666;
+    width: 50px;
+    height: 45px;
+    margin: left;
+  }
+.ct {
+    float: left;
+    width: 100%;
+    
+}
+
+.main {
+    height: 0px;
+    margin-left:200px;
+    margin-right: 100px;
+}
+
+.left {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-left: -100%;
+    
+}
+
+.right {
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-left: -100%;
+    
+}
+span{
+    font-size: 20px;
+}
+.main1{
+    background-color: #e0e0e0;
+}
+#video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+   
+  }
+  #dvdv{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+  }
+  a {
+    color:black;
+    text-decoration: none; /* 默认无下划线 */
+    cursor:pointer
+  }
+  
+  a:hover,
+  a:active,
+  a:focus {
+    text-decoration: underline; /* 鼠标悬停、点击和获取焦点时出现下划线 */
+  }
+  @font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.ttf?t=1703402839998') format('truetype');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .a1{
+    color:white;
+    text-decoration: none; 
+  }
+  a1:focus{
+    text-decoration: none;
+  }
